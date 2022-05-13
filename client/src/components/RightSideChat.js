@@ -261,7 +261,7 @@ export const RightSideChat = () => {
             animationData={typingAnimation}
             loop={true}
             autoplay={true}
-            style={{ width: "100px", marginTop : "0" }}
+            style={{ width: "100px", marginTop : "-1.3em" }}
           />}
           </MessagesContainer>
           <MessageInput
