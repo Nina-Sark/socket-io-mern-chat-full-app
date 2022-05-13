@@ -44,7 +44,7 @@ const server = createServer(app);
 const io = new Server(server, {
   pingTimeout: 100000,
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://socketio-mern-chat-app.netlify.app",
   },
 });
 
